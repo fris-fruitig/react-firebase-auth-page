@@ -1,0 +1,44 @@
+{
+  "name": "react-firebase-auth-page",
+  "version": "1.0.0",
+  "description": "React Firebase authentication page",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "nwb": "0.15.x",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "author": "Arthur Visser <arthur@planl.nl>",
+  "homepage": "https://github.com/planl/react-firebase-auth-page",
+  "bugs": {
+    "url": "https://github.com/planl/react-firebase-auth-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planl/react-firebase-auth-page.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "firebase"
+  ]
+}
