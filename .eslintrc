@@ -29,7 +29,6 @@
     "react/no-array-index-key": 0,
     "import/no-named-default": 0,
     "react/require-default-props": 0,
-    "jsx-a11y/img-has-alt": 0,
     "react/jsx-boolean-value": 0,
     "react/prefer-stateless-function": 0,
     "react/sort-comp": 0,
